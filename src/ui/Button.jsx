@@ -21,7 +21,7 @@ function Button({ children, disabled, to, type }) {
 
   if (to)
     return (
-      <Link className={styles[type]} tp={to}>
+      <Link className={styles[type]} to={to}>
         {children}
       </Link>
     );
